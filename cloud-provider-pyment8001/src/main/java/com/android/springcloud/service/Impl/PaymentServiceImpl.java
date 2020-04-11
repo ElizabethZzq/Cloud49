@@ -1,5 +1,6 @@
 package com.android.springcloud.service.Impl;
 
+import com.android.springcloud.dao.PaymentMapper;
 import com.android.springcloud.entities.Payment;
 import com.android.springcloud.service.PaymentService;
 import org.springframework.stereotype.Service;

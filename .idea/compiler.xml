@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-pyment8001" />
+        <module name="cloud-consumer-order80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-consumer-order80" target="1.8" />
       <module name="cloud-provider-pyment8001" target="1.8" />
       <module name="Cloud49" target="1.8" />
     </bytecodeTargetLevel>

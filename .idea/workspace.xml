@@ -2,29 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6b353bb-c049-4c07-8f99-af75d32012fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/OrderMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/entities/CommontResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/entities/PaymentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/PaymentMain8001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/controller/PaymentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/dao/PaymentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/dao/PaymentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/PaymentExample.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/service/Impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/service/Impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/PaymentMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/PaymentMain8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/dao/PaymentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/service/Impl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/service/Impl/PaymentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/entities/PaymentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/entities/PaymentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/entities/PaymentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/com/android/springcloud/entities/PaymentExample$GeneratedCriteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-pyment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-pyment8001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-order80/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -32,43 +42,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/controller/PaymentController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="335">
+              <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/Payment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/dao/PaymentMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/PaymentExample.java">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/PaymentMain8001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="167" column="43" lean-forward="true" selection-start-line="167" selection-start-column="43" selection-end-line="167" selection-end-column="43" />
+            <state relative-caret-position="337">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,11 +101,18 @@
         <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/dao/PaymentExample.java" />
         <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/PaymentExample.java" />
         <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/mapper/PaymentMapper.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/service/Impl/PaymentServiceImpl.java" />
         <option value="$PROJECT_DIR$/cloud-provider-pyment8001/readme.md" />
-        <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/dao/PaymentMapper.java" />
         <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/PaymentMain8001.java" />
         <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/dao/PaymentMapper.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/service/Impl/PaymentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/entities/Payment.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/entities/CommontResult.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/config/ApplicationContextConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/OrderMain80.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/controller/PaymentController.java" />
       </list>
     </option>
@@ -146,9 +147,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="404" />
-    <option name="y" value="60" />
-    <option name="width" value="1394" />
+    <option name="x" value="426" />
+    <option name="y" value="31" />
+    <option name="width" value="1354" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -168,87 +169,63 @@
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -257,10 +234,65 @@
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cloud49" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-pyment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cloud49" type="b2602c69:ProjectViewProjectNode" />
@@ -282,21 +314,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3025701" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.android.springcloud.dao" />
       <recent name="com.android.springcloud.entities" />
+      <recent name="com.android.springcloud.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\zookeeper视频\ZooKeeper分布式专题与Dubbo微服务入门\Cloud49\cloud-consumer-order80\src\main\java\com\android\springcloud" />
       <recent name="E:\zookeeper视频\ZooKeeper分布式专题与Dubbo微服务入门\Cloud49\cloud-provider-pyment8001\src\main\java\com\android\springcloud\entities" />
       <recent name="E:\zookeeper视频\ZooKeeper分布式专题与Dubbo微服务入门\Cloud49\cloud-provider-pyment8001\src\main\java\com\android\springcloud\dao" />
       <recent name="E:\zookeeper视频\ZooKeeper分布式专题与Dubbo微服务入门\Cloud49\cloud-provider-pyment8001\src\main\resources\mapper" />
@@ -314,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain8001">
+  <component name="RunManager" selected="Spring Boot.OrderMain80">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.android.springcloud.entities.Generator" />
       <module name="cloud-provider-pyment8001" />
@@ -328,6 +361,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.android.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.android.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-pyment8001" />
       <extension name="coverage">
@@ -337,12 +383,21 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.android.springcloud.PaymentMain8001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Generator" />
+      <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.OrderMain80" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderMain80" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
         <item itemvalue="Application.Generator" />
       </list>
@@ -364,7 +419,7 @@
       <workItem from="1586492403218" duration="6270000" />
       <workItem from="1586503110551" duration="1138000" />
       <workItem from="1586513807802" duration="1904000" />
-      <workItem from="1586522753849" duration="8849000" />
+      <workItem from="1586522753849" duration="15951000" />
     </task>
     <task id="LOCAL-00001" summary="4-11版本，很多bug &#10;mpper文件有问题">
       <created>1586578944272</created>
@@ -387,11 +442,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586580171504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="重置版  解决了注册中心未开启问题">
+      <created>1586583721382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586583721382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26154000" />
+    <option name="totallyTimeSpent" value="33256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,32 +465,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="404" y="60" width="1394" height="878" extended-state="0" />
-    <editor active="true" />
+    <frame x="556" y="67" width="1354" height="878" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2942943" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27631578" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" x="911" y="378" width="528" height="257" id="Event Log" order="4" sideWeight="0.500947" side_tool="true" weight="0.3290653" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49905303" weight="0.9162162" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" x="587" y="316" width="1292" height="380" id="Run" order="7" sideWeight="0.49905303" visible="true" weight="0.26756757" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3290653" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.25405404" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.4783784" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -447,7 +509,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4-11版本，很多bug &#10;mpper文件有问题" />
     <MESSAGE value="4-11版本，很多bug &#10;mpper文件有问题&#10;12:40&#10;基本修复完成，开始工作" />
-    <option name="LAST_COMMIT_MESSAGE" value="4-11版本，很多bug &#10;mpper文件有问题&#10;12:40&#10;基本修复完成，开始工作" />
+    <MESSAGE value="重置版  解决了注册中心未开启问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="重置版  解决了注册中心未开启问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml" />
@@ -458,18 +521,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cloud49.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/CommontResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -562,59 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/PaymentMain8001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/service/Impl/PaymentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/service/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/mapper/PaymentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
@@ -622,10 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/Payment.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/service/PaymentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="106">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -634,15 +632,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/dao/PaymentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/service/Impl/PaymentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/entities/PaymentExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/entities/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/PaymentExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="2385">
           <caret line="167" column="43" lean-forward="true" selection-start-line="167" selection-start-column="43" selection-end-line="167" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/entities/CommontResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/entities/CommontResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/OrderMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/android/springcloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-pyment8001/src/main/java/com/android/springcloud/PaymentMain8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,11 +825,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Cloud49</last-edited>
+          <last-edited>cloud-consumer-order80</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3025701" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
