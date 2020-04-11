@@ -164,73 +164,73 @@ public class PaymentExample {
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalIsNull() {
-            addCriterion("seriaal is null");
+        public Criteria andSerialIsNull() {
+            addCriterion("serial is null");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalIsNotNull() {
-            addCriterion("seriaal is not null");
+        public Criteria andSerialIsNotNull() {
+            addCriterion("serial is not null");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalEqualTo(String value) {
-            addCriterion("seriaal =", value, "seriaal");
+        public Criteria andSerialEqualTo(String value) {
+            addCriterion("serial =", value, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalNotEqualTo(String value) {
-            addCriterion("seriaal <>", value, "seriaal");
+        public Criteria andSerialNotEqualTo(String value) {
+            addCriterion("serial <>", value, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalGreaterThan(String value) {
-            addCriterion("seriaal >", value, "seriaal");
+        public Criteria andSerialGreaterThan(String value) {
+            addCriterion("serial >", value, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalGreaterThanOrEqualTo(String value) {
-            addCriterion("seriaal >=", value, "seriaal");
+        public Criteria andSerialGreaterThanOrEqualTo(String value) {
+            addCriterion("serial >=", value, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalLessThan(String value) {
-            addCriterion("seriaal <", value, "seriaal");
+        public Criteria andSerialLessThan(String value) {
+            addCriterion("serial <", value, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalLessThanOrEqualTo(String value) {
-            addCriterion("seriaal <=", value, "seriaal");
+        public Criteria andSerialLessThanOrEqualTo(String value) {
+            addCriterion("serial <=", value, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalLike(String value) {
-            addCriterion("seriaal like", value, "seriaal");
+        public Criteria andSerialLike(String value) {
+            addCriterion("serial like", value, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalNotLike(String value) {
-            addCriterion("seriaal not like", value, "seriaal");
+        public Criteria andSerialNotLike(String value) {
+            addCriterion("serial not like", value, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalIn(List<String> values) {
-            addCriterion("seriaal in", values, "seriaal");
+        public Criteria andSerialIn(List<String> values) {
+            addCriterion("serial in", values, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalNotIn(List<String> values) {
-            addCriterion("seriaal not in", values, "seriaal");
+        public Criteria andSerialNotIn(List<String> values) {
+            addCriterion("serial not in", values, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalBetween(String value1, String value2) {
-            addCriterion("seriaal between", value1, value2, "seriaal");
+        public Criteria andSerialBetween(String value1, String value2) {
+            addCriterion("serial between", value1, value2, "serial");
             return (Criteria) this;
         }
 
-        public Criteria andSeriaalNotBetween(String value1, String value2) {
-            addCriterion("seriaal not between", value1, value2, "seriaal");
+        public Criteria andSerialNotBetween(String value1, String value2) {
+            addCriterion("serial not between", value1, value2, "serial");
             return (Criteria) this;
         }
     }

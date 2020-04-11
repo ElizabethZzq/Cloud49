@@ -4,6 +4,7 @@ import com.android.springcloud.entities.CommontResult;
 import com.android.springcloud.entities.Payment;
 import com.android.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,7 +28,7 @@ public class PaymentController {
             return new CommontResult(400,"失败",null);
         }
     }
-    @PostMapping(value = "/payment/get/{id}")
+    @GetMapping(value = "/payment/get/{id}")
     public CommontResult crtate(@PathVariable("id") Long id){
         Payment payment = paymentService.getPayment(id);
         log.info("*******结果:"+payment);

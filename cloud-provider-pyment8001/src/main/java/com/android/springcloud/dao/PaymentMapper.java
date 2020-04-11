@@ -2,9 +2,8 @@ package com.android.springcloud.dao;
 
 import com.android.springcloud.entities.Payment;
 import com.android.springcloud.entities.PaymentExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface PaymentMapper {
     long countByExample(PaymentExample example);

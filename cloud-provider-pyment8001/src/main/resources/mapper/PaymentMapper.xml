@@ -3,7 +3,7 @@
 <mapper namespace="com.android.springcloud.dao.PaymentMapper">
   <resultMap id="BaseResultMap" type="com.android.springcloud.entities.Payment">
     <id column="id" jdbcType="BIGINT" property="id" />
-    <result column="seriaal" jdbcType="VARCHAR" property="seriaal" />
+    <result column="serial" jdbcType="VARCHAR" property="serial" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -64,7 +64,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, seriaal
+    id, serial
   </sql>
   <select id="selectByExample" parameterType="com.android.springcloud.entities.PaymentExample" resultMap="BaseResultMap">
     select
@@ -97,8 +97,8 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.android.springcloud.entities.Payment">
-    insert into payment (id, seriaal)
-    values (#{id,jdbcType=BIGINT}, #{seriaal,jdbcType=VARCHAR})
+    insert into payment (id, serial)
+    values (#{id,jdbcType=BIGINT}, #{serial,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.android.springcloud.entities.Payment">
     insert into payment
@@ -106,16 +106,16 @@
       <if test="id != null">
         id,
       </if>
-      <if test="seriaal != null">
-        seriaal,
+      <if test="serial != null">
+        serial,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="id != null">
         #{id,jdbcType=BIGINT},
       </if>
-      <if test="seriaal != null">
-        #{seriaal,jdbcType=VARCHAR},
+      <if test="serial != null">
+        #{serial,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -131,8 +131,8 @@
       <if test="record.id != null">
         id = #{record.id,jdbcType=BIGINT},
       </if>
-      <if test="record.seriaal != null">
-        seriaal = #{record.seriaal,jdbcType=VARCHAR},
+      <if test="record.serial != null">
+        serial = #{record.serial,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null">
@@ -142,7 +142,7 @@
   <update id="updateByExample" parameterType="map">
     update payment
     set id = #{record.id,jdbcType=BIGINT},
-      seriaal = #{record.seriaal,jdbcType=VARCHAR}
+      serial = #{record.serial,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -150,15 +150,15 @@
   <update id="updateByPrimaryKeySelective" parameterType="com.android.springcloud.entities.Payment">
     update payment
     <set>
-      <if test="seriaal != null">
-        seriaal = #{seriaal,jdbcType=VARCHAR},
+      <if test="serial != null">
+        serial = #{serial,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.android.springcloud.entities.Payment">
     update payment
-    set seriaal = #{seriaal,jdbcType=VARCHAR}
+    set serial = #{serial,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>
