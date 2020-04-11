@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="main/resources/mapper.PaymentMapper">
-  <resultMap id="BaseResultMap" type="com.android.Payment">
+<mapper namespace="com.android.springcloud.dao.PaymentMapper">
+  <resultMap id="BaseResultMap" type="com.android.springcloud.entities.Payment">
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="seriaal" jdbcType="VARCHAR" property="seriaal" />
   </resultMap>
@@ -66,7 +66,7 @@
   <sql id="Base_Column_List">
     id, seriaal
   </sql>
-  <select id="selectByExample" parameterType="com.android.PaymentExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.android.springcloud.entities.PaymentExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -90,17 +90,17 @@
     delete from payment
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.android.PaymentExample">
+  <delete id="deleteByExample" parameterType="com.android.springcloud.entities.PaymentExample">
     delete from payment
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.android.Payment">
+  <insert id="insert" parameterType="com.android.springcloud.entities.Payment">
     insert into payment (id, seriaal)
     values (#{id,jdbcType=BIGINT}, #{seriaal,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.android.Payment">
+  <insert id="insertSelective" parameterType="com.android.springcloud.entities.Payment">
     insert into payment
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -119,7 +119,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.android.PaymentExample" resultType="java.lang.Long">
+  <select id="countByExample" parameterType="com.android.springcloud.entities.PaymentExample" resultType="java.lang.Long">
     select count(*) from payment
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
@@ -147,7 +147,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.android.Payment">
+  <update id="updateByPrimaryKeySelective" parameterType="com.android.springcloud.entities.Payment">
     update payment
     <set>
       <if test="seriaal != null">
@@ -156,7 +156,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.android.Payment">
+  <update id="updateByPrimaryKey" parameterType="com.android.springcloud.entities.Payment">
     update payment
     set seriaal = #{seriaal,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}

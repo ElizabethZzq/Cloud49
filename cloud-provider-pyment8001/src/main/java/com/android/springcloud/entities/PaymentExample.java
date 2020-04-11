@@ -1,4 +1,4 @@
-package com.android.springcloud.dao;
+package com.android.springcloud.entities;
 
 import java.util.ArrayList;
 import java.util.List;
